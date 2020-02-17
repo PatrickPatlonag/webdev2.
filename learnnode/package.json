@@ -1,0 +1,20 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "learnyounode": "^4.2.1",
+    "save": "^2.4.0",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start-learnyounode": "learnyounode",
+    "verify-learnyounode": "learnyounode verify http-json-api-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

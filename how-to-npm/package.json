@@ -1,0 +1,26 @@
+{
+  "name": "@patrick/how-to-npm",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickPatlonag/read"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2",
+    "how-to-npm": "^2.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start-npm": "how-to-npm",
+    "print-npm": "how-to-npm print",
+    "verify": "how-to-npm verify",
+    "verify-ok": "how-to-npm verify ok",
+    "verify-PKG": "how-to-npm verify @linclark/pkg",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

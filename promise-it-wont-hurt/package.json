@@ -1,0 +1,19 @@
+{
+  "name": "promise-it-wont-hurt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "promise-it-wont-hurt": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "promise-it-wont-hurt",
+    "verify": "promise-it-wont-hurt verify warmup.js",
+    "run": "promise-it-wont-hurt run warmup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
